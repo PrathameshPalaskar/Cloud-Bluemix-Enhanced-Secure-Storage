@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 128M
+  instances: 1
+  domain: mybluemix.net
+  name: yedaassignment2
+  host: yedaassignment2
+  disk_quota: 1024M
+  services:
+  - ClearDB MySQL Database-z1
